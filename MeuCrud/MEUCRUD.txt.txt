@@ -1,0 +1,18 @@
+// Olá! Meu nome é Breno.
+
+Acabei tentanto refazer um CRUD Utilizando o Materialize, acabei descartando as modificações que você me enviou.
+Desenvolvi uma nova interface com o Materialize que eu acredito que seja mais interessante. 
+Esta interface nova, apresenta um conceito que eu acredito que seja mais bonito para esse tipo de Plataforma, tive
+contratempos com o tempo e meu banco de dados acabou sendo mais prejudicado porque foquei na parte que domino mais, a
+parte visual. Foi meu primeiro contato mais profissional com Banco de Dados para Web. Me senti satisfeito com o resultado,
+porém, não consegui fazer uma integração satisfatória com o Banco fornecido. Tentei refazer todo o código para algo que eu
+domino mais. Ainda estou aprendendo, contudo, não me rendi aos impecilhos que tive(com o tempo que me ofereceram) os resultados
+que eu apresento aqui.
+
+Resposta as Perguntas:
+
+1. Desenvolvi uma interface que eu acredito que seja mais agradável para o usuário.
+2. Para evitar a perda de dados, deveria ser sinalizado no banco que o registro do usuário específico será excluido.
+exemplo: $sql = "UPDATE $table SET deletado=NOW() WHERE id = $id".
+3. Eu identifiquei um Padrão MVC. Quando refiz, o Crud coloquei no mesmo modelo(MVC)... Este que me sinto mais seguro em Desenvolver.
+4. Poderia ter sido feito uma espécie de Try/Catch para a resolução de erros.
